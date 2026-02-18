@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_om_bank_statement_import_form" model="ir.ui.view">
+        <field name="name">om.bank.statement.import.form</field>
+        <field name="model">om.bank.statement.import</field>
+        <field name="arch" type="xml">
+            <form string="Import Bank Statement">
+                <div class="alert alert-info text-center" role="alert" style="margin-bottom:0px;">
+                    Upload a <b>CSV</b> or <b>XLSX</b> file to auto-detect columns.
+                </div>
+                <group>
+                    <group>
+                        <field name="journal_id" readonly="1"/>
+                        <field name="sheet_options" attrs="{'invisible': [('sheet_options', '=', False)]}"/>
+                        <field name="sheet_name" invisible="1"/>
+                    </group>
+                    <group>
+                        <field name="file_name" invisible="1"/>
+                        <field name="file_data" filename="file_name" string="File"/>
+                    </group>
+                </group>
+                
+                <notebook>
+                    <page string="Column Mapping">
+                        <field name="mapping_line_ids" nolabel="1">
+                            <tree editable="bottom" create="0" delete="0">
+                                <field name="column_index" invisible="1" force_save="1"/>
+                                <field name="column_name" readonly="1" force_save="1"/>
+                                <field name="example_content" readonly="1" force_save="1"/>
+                                <field name="target_field"/>
+                            </tree>
+                        </field>
+                    </page>
+                    
+                    <page string="Formatting &amp; Options">
+                        <group>
+                            <group string="File Format">
+                                <field name="has_header"/>
+                                <field name="encoding"/>
+                                <field name="separator"/>
+                                <field name="quote_char"/>
+                            </group>
+                            <group string="Value Formatting">
+                                <field name="create_partner"/>
+                                <field name="date_format" placeholder="e.g. %Y-%m-%d"/>
+                                <field name="float_decimal_separator"/>
+                                <field name="float_thousand_separator"/>
+                                <field name="on_error"/>
+                            </group>
+                        </group>
+                    </page>
+                </notebook>
+
+                <footer>
+                    <button name="import_file" string="Import Bank Statement" type="object" class="btn-primary" data-hotkey="q"/>
+                    <button name="test_import" string="Test Import" type="object" class="btn-info" data-hotkey="t"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_om_bank_statement_import" model="ir.actions.act_window">
+        <field name="name">Import Bank Statement</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">om.bank.statement.import</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>
