@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+  <rect width="1200" height="760" fill="#eff6ff"/>
+  <rect x="44" y="32" width="1112" height="696" rx="24" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="78" y="88" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Formatting and Import Options</text>
+  <text x="78" y="126" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18">Configure file parsing rules before importing bank statement lines.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="78" y="164" width="484" height="506" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="108" y="212" fill="#0f172a" font-size="24" font-weight="700">File Format</text>
+    <text x="108" y="260" fill="#334155" font-size="18">Use first row as header</text>
+    <rect x="408" y="236" width="112" height="38" rx="19" fill="#22c55e"/>
+    <circle cx="489" cy="255" r="15" fill="#ffffff"/>
+    <text x="108" y="324" fill="#334155" font-size="18">Encoding</text>
+    <rect x="108" y="340" width="380" height="44" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="130" y="368" fill="#0f172a" font-size="17">UTF-8</text>
+    <text x="108" y="430" fill="#334155" font-size="18">Separator</text>
+    <rect x="108" y="446" width="380" height="44" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="130" y="474" fill="#0f172a" font-size="17">Comma</text>
+    <text x="108" y="536" fill="#334155" font-size="18">Text Delimiter</text>
+    <rect x="108" y="552" width="380" height="44" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="130" y="580" fill="#0f172a" font-size="17">"</text>
+
+    <rect x="600" y="164" width="484" height="506" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="630" y="212" fill="#0f172a" font-size="24" font-weight="700">Value Formatting</text>
+    <text x="630" y="260" fill="#334155" font-size="18">Create New Partners</text>
+    <rect x="928" y="236" width="112" height="38" rx="19" fill="#22c55e"/>
+    <circle cx="1009" cy="255" r="15" fill="#ffffff"/>
+    <text x="630" y="324" fill="#334155" font-size="18">Date Format</text>
+    <rect x="630" y="340" width="380" height="44" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="652" y="368" fill="#0f172a" font-size="17">DD/MM/YYYY</text>
+    <text x="630" y="430" fill="#334155" font-size="18">Decimal Separator</text>
+    <rect x="630" y="446" width="380" height="44" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="652" y="474" fill="#0f172a" font-size="17">Dot (.)</text>
+    <text x="630" y="536" fill="#334155" font-size="18">On Error</text>
+    <rect x="630" y="552" width="380" height="44" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="652" y="580" fill="#0f172a" font-size="17">Stop Import</text>
+  </g>
+</svg>

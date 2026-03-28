@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+  <rect width="1200" height="760" fill="#eef2ff"/>
+  <rect x="40" y="32" width="1120" height="696" rx="24" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="78" y="88" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Column Mapping Preview</text>
+  <text x="78" y="126" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18">Upload a file and map detected columns to Odoo bank statement fields.</text>
+  <rect x="78" y="156" width="1044" height="56" rx="14" fill="#dbeafe"/>
+  <text x="104" y="191" fill="#1e3a8a" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">File: statement_april.csv</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="78" y="244" width="1044" height="62" rx="12" fill="#0f172a"/>
+    <text x="108" y="283" fill="#ffffff" font-size="18" font-weight="700">Detected Column</text>
+    <text x="420" y="283" fill="#ffffff" font-size="18" font-weight="700">Sample Data</text>
+    <text x="806" y="283" fill="#ffffff" font-size="18" font-weight="700">Mapped Odoo Field</text>
+
+    <rect x="78" y="320" width="1044" height="72" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="108" y="364" fill="#0f172a" font-size="18">Transaction Date</text>
+    <text x="420" y="364" fill="#334155" font-size="18">31/01/2026</text>
+    <rect x="790" y="336" width="250" height="38" rx="10" fill="#dcfce7"/>
+    <text x="820" y="361" fill="#166534" font-size="17" font-weight="700">Date</text>
+
+    <rect x="78" y="406" width="1044" height="72" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="108" y="450" fill="#0f172a" font-size="18">Narration</text>
+    <text x="420" y="450" fill="#334155" font-size="18">Invoice Payment INV/2026/0012</text>
+    <rect x="790" y="422" width="250" height="38" rx="10" fill="#dbeafe"/>
+    <text x="820" y="447" fill="#1d4ed8" font-size="17" font-weight="700">Payment Reference</text>
+
+    <rect x="78" y="492" width="1044" height="72" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="108" y="536" fill="#0f172a" font-size="18">Counterparty</text>
+    <text x="420" y="536" fill="#334155" font-size="18">Blue Wave Trading LLC</text>
+    <rect x="790" y="508" width="250" height="38" rx="10" fill="#ede9fe"/>
+    <text x="820" y="533" fill="#6d28d9" font-size="17" font-weight="700">Partner</text>
+
+    <rect x="78" y="578" width="1044" height="72" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="108" y="622" fill="#0f172a" font-size="18">Amount AED</text>
+    <text x="420" y="622" fill="#334155" font-size="18">14,250.00</text>
+    <rect x="790" y="594" width="250" height="38" rx="10" fill="#fef3c7"/>
+    <text x="820" y="619" fill="#92400e" font-size="17" font-weight="700">Amount</text>
+  </g>
+</svg>

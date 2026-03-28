@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>OM Bank Statement Import Custom</title>
+</head>
+<body style="margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#1f2937;">
+    <div style="max-width:960px;margin:0 auto;background:#ffffff;">
+        <section style="padding:0;">
+            <img src="banner.svg" alt="OM Bank Statement Import Custom" style="display:block;width:100%;height:auto;"/>
+        </section>
+
+        <section style="padding:32px 36px 12px 36px;">
+            <h1 style="margin:0 0 12px 0;font-size:30px;line-height:1.2;color:#0f172a;">OM Bank Statement Import Custom</h1>
+            <p style="margin:0 0 16px 0;font-size:16px;line-height:1.7;color:#475569;">
+                Import bank statements from CSV and XLSX files with flexible column mapping, file-format controls,
+                test import support, and automatic statement line creation in Odoo 16.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:8px;">
+                <span style="background:#e0f2fe;color:#075985;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:700;">CSV + XLSX</span>
+                <span style="background:#dcfce7;color:#166534;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:700;">Auto Column Detection</span>
+                <span style="background:#fef3c7;color:#92400e;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:700;">Test Import</span>
+                <span style="background:#ede9fe;color:#5b21b6;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:700;">Formatting Controls</span>
+            </div>
+        </section>
+
+        <section style="padding:12px 36px 8px 36px;">
+            <h2 style="margin:0 0 14px 0;font-size:22px;color:#0f172a;">Key Features</h2>
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;">
+                <div style="border:1px solid #e2e8f0;border-radius:16px;padding:18px;background:#f8fafc;">
+                    <h3 style="margin:0 0 8px 0;font-size:17px;color:#0f172a;">Import CSV or XLSX</h3>
+                    <p style="margin:0;font-size:14px;line-height:1.7;color:#475569;">Upload bank files directly from the journal and parse data from CSV or Excel sheets.</p>
+                </div>
+                <div style="border:1px solid #e2e8f0;border-radius:16px;padding:18px;background:#f8fafc;">
+                    <h3 style="margin:0 0 8px 0;font-size:17px;color:#0f172a;">Auto Mapping Preview</h3>
+                    <p style="margin:0;font-size:14px;line-height:1.7;color:#475569;">The wizard reads sample rows and suggests matching Odoo target fields automatically.</p>
+                </div>
+                <div style="border:1px solid #e2e8f0;border-radius:16px;padding:18px;background:#f8fafc;">
+                    <h3 style="margin:0 0 8px 0;font-size:17px;color:#0f172a;">Formatting Controls</h3>
+                    <p style="margin:0;font-size:14px;line-height:1.7;color:#475569;">Set encoding, separator, text delimiter, date format, decimal separator, and error handling rules.</p>
+                </div>
+                <div style="border:1px solid #e2e8f0;border-radius:16px;padding:18px;background:#f8fafc;">
+                    <h3 style="margin:0 0 8px 0;font-size:17px;color:#0f172a;">Single Statement per File</h3>
+                    <p style="margin:0;font-size:14px;line-height:1.7;color:#475569;">Aggregate all rows from one file into one imported bank statement for easier review and reconciliation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding:28px 36px 8px 36px;">
+            <h2 style="margin:0 0 14px 0;font-size:22px;color:#0f172a;">Preview</h2>
+            <div style="display:grid;grid-template-columns:1fr;gap:20px;">
+                <div style="border:1px solid #e2e8f0;border-radius:18px;overflow:hidden;background:#ffffff;">
+                    <img src="mapping_preview.svg" alt="Column mapping preview" style="display:block;width:100%;height:auto;"/>
+                </div>
+                <div style="border:1px solid #e2e8f0;border-radius:18px;overflow:hidden;background:#ffffff;">
+                    <img src="options_preview.svg" alt="Formatting and import options" style="display:block;width:100%;height:auto;"/>
+                </div>
+                <div style="border:1px solid #e2e8f0;border-radius:18px;overflow:hidden;background:#ffffff;">
+                    <img src="workflow_preview.svg" alt="Import workflow overview" style="display:block;width:100%;height:auto;"/>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding:28px 36px 12px 36px;">
+            <h2 style="margin:0 0 14px 0;font-size:22px;color:#0f172a;">How It Works</h2>
+            <ol style="margin:0;padding-left:20px;color:#475569;font-size:15px;line-height:1.9;">
+                <li>Open a bank journal and click <strong>Import Statement</strong>.</li>
+                <li>Upload a CSV or XLSX file.</li>
+                <li>Review the detected columns and map them to Odoo fields.</li>
+                <li>Adjust file-format and value-format options if needed.</li>
+                <li>Run <strong>Test Import</strong> or import the statement directly.</li>
+            </ol>
+        </section>
+
+        <section style="padding:24px 36px 36px 36px;">
+            <h2 style="margin:0 0 14px 0;font-size:22px;color:#0f172a;">Supported Capabilities</h2>
+            <ul style="margin:0;padding-left:20px;color:#475569;font-size:15px;line-height:1.9;">
+                <li>CSV import with configurable encoding, separator, and quote character</li>
+                <li>XLSX import with sheet selection</li>
+                <li>Date parsing for multiple common date formats</li>
+                <li>Decimal and thousands separator handling</li>
+                <li>Optional partner creation during import</li>
+                <li>Error policy: stop import or skip invalid rows</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

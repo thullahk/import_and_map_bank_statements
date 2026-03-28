@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <rect width="1200" height="680" fill="#f8fafc"/>
+  <text x="70" y="88" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Import Workflow</text>
+  <text x="70" y="126" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18">A clear path from uploaded file to imported bank statement.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="188" width="230" height="160" rx="22" fill="#dbeafe"/>
+    <text x="102" y="236" fill="#1e3a8a" font-size="22" font-weight="700">1. Upload File</text>
+    <text x="102" y="276" fill="#334155" font-size="17">CSV or XLSX</text>
+    <text x="102" y="304" fill="#334155" font-size="17">from bank journal</text>
+
+    <rect x="354" y="188" width="230" height="160" rx="22" fill="#ede9fe"/>
+    <text x="386" y="236" fill="#6d28d9" font-size="22" font-weight="700">2. Map Columns</text>
+    <text x="386" y="276" fill="#334155" font-size="17">Auto-detect</text>
+    <text x="386" y="304" fill="#334155" font-size="17">and adjust fields</text>
+
+    <rect x="638" y="188" width="230" height="160" rx="22" fill="#fef3c7"/>
+    <text x="670" y="236" fill="#92400e" font-size="22" font-weight="700">3. Validate</text>
+    <text x="670" y="276" fill="#334155" font-size="17">Set date, number,</text>
+    <text x="670" y="304" fill="#334155" font-size="17">and error options</text>
+
+    <rect x="922" y="188" width="230" height="160" rx="22" fill="#dcfce7"/>
+    <text x="954" y="236" fill="#166534" font-size="22" font-weight="700">4. Import</text>
+    <text x="954" y="276" fill="#334155" font-size="17">Create one bank</text>
+    <text x="954" y="304" fill="#334155" font-size="17">statement per file</text>
+
+    <path d="M300 268 L340 268" stroke="#1d4ed8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M328 254 L348 268 L328 282" fill="none" stroke="#1d4ed8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M584 268 L624 268" stroke="#7c3aed" stroke-width="8" stroke-linecap="round"/>
+    <path d="M612 254 L632 268 L612 282" fill="none" stroke="#7c3aed" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M868 268 L908 268" stroke="#ca8a04" stroke-width="8" stroke-linecap="round"/>
+    <path d="M896 254 L916 268 L896 282" fill="none" stroke="#ca8a04" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="70" y="420" width="1082" height="180" rx="24" fill="#0f172a"/>
+    <text x="108" y="476" fill="#ffffff" font-size="24" font-weight="700">Built for practical bank statement imports</text>
+    <text x="108" y="520" fill="#cbd5e1" font-size="18">Use test import before posting live data. Configure separators, encoding, date formats,</text>
+    <text x="108" y="550" fill="#cbd5e1" font-size="18">partner creation, and row error policy to match real bank exports with less cleanup work.</text>
+  </g>
+</svg>

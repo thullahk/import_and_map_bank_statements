@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#dbeafe" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <circle cx="1040" cy="70" r="150" fill="#60a5fa" opacity="0.16"/>
+  <circle cx="130" cy="350" r="180" fill="#93c5fd" opacity="0.12"/>
+  <text x="70" y="120" fill="#93c5fd" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">ODOO 16 ACCOUNTING</text>
+  <text x="70" y="180" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">OM Bank Statement</text>
+  <text x="70" y="232" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Import Custom</text>
+  <text x="70" y="282" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="22">CSV and XLSX import with smart mapping and formatting controls</text>
+  <g transform="translate(735,58)">
+    <rect x="0" y="0" rx="26" ry="26" width="380" height="304" fill="url(#card)"/>
+    <rect x="26" y="28" rx="12" ry="12" width="328" height="52" fill="#0f172a"/>
+    <text x="52" y="61" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Import Bank Statement</text>
+    <rect x="26" y="102" rx="12" ry="12" width="156" height="164" fill="#eff6ff"/>
+    <rect x="198" y="102" rx="12" ry="12" width="156" height="164" fill="#eff6ff"/>
+    <text x="42" y="132" fill="#1e3a8a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Source File</text>
+    <text x="42" y="168" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16">bank_statement.csv</text>
+    <text x="42" y="198" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16">sheet.xlsx</text>
+    <text x="214" y="132" fill="#1e3a8a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Output</text>
+    <text x="214" y="168" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16">Mapped lines</text>
+    <text x="214" y="198" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16">One statement</text>
+    <rect x="38" y="224" rx="8" ry="8" width="118" height="24" fill="#bfdbfe"/>
+    <rect x="210" y="224" rx="8" ry="8" width="118" height="24" fill="#86efac"/>
+    <path d="M182 184 L200 184" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M194 175 L208 184 L194 193" fill="none" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
