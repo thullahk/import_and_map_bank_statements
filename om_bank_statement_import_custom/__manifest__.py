@@ -8,8 +8,8 @@
         Custom module to import bank statements from CSV/XLSX files.
         Aggregates all transactions from a single file into one Bank Statement.
     """,
-    'author': 'Antigravity',
-    'images': ['static/description/banner.svg'],
+    'author': 'Rahmathullah K',
+    'images': ['images/main_screenshot.png'],
     'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',
